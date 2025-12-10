@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
+
+    <!-- Primary Meta Tags -->
+    <title>Shaheer Ahmad - Portfolio | Redirecting...</title>
+    <meta name="title" content="Shaheer Ahmad - Portfolio">
+    <meta name="description"
+        content="Welcome to the portfolio of Shaheer Ahmad. Discover my projects, skills, and professional journey. Redirecting to the main site...">
+    <meta name="keywords" content="Shaheer Ahmad, Portfolio, Software Engineer, Web Developer, Full Stack, GitHub">
+    <meta name="author" content="Shaheer Ahmad">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://shaheerahmadch.github.io/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shaheerahmadch.github.io/">
+    <meta property="og:title" content="Shaheer Ahmad - Portfolio">
+    <meta property="og:description"
+        content="Welcome to the portfolio of Shaheer Ahmad. Discover my projects, skills, and professional journey.">
+    <meta property="og:image" content="https://shaheerahmadch.github.io/assets/banner.png">
+    <!-- Assuming a banner exists or generic fallback -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://shaheerahmadch.github.io/">
+    <meta property="twitter:title" content="Shaheer Ahmad - Portfolio">
+    <meta property="twitter:description"
+        content="Welcome to the portfolio of Shaheer Ahmad. Discover my projects, skills, and professional journey.">
+    <meta property="twitter:image" content="https://shaheerahmadch.github.io/assets/banner.png">
     <style>
         :root {
             --bg-color: #0d0d0d;
             --text-color: #e0e0e0;
-            --accent-color: #6366f1; /* Indigo-500 */
+            --accent-color: #6366f1;
+            /* Indigo-500 */
         }
 
         body {
@@ -44,7 +72,9 @@
         }
 
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         /* Pulse effect background for loader */
@@ -92,11 +122,19 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="loader-container fade-in">
         <div class="loader"></div>
@@ -111,11 +149,12 @@
         const TARGET_URL = "https://shaheerahmadch.github.io/";
         const DELAY_MS = 2500; // 2.5 seconds for visibility
 
-        window.onload = function() {
+        window.onload = function () {
             setTimeout(() => {
                 window.location.href = TARGET_URL;
             }, DELAY_MS);
         };
     </script>
 </body>
+
 </html>
